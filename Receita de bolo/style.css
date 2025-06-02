@@ -1,10 +1,26 @@
+body {
+    border-radius: 24px;
+    background-image: url(./assets/bg-image.jpg);
+    background-color: #573824;
+    background-size: cover
+}
+
+#content {
+    background-color: #F0E8C2;
+    padding: 24px;
+    width: 800px;
+    border-radius: 24px;
+    margin: 48px auto;
+    box-sizing: border-box;
+}
+
 main {
     font-family: "Alice", serif;
     font-weight: 400;
     font-style: normal;
-    background-color: #F0E8C2;
-    border-radius: 24px;
-    
+}
+img {
+    border-radius: 16px;
 }
 div h1 {
     font-size: 40px;
