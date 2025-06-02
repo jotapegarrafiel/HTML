@@ -25,10 +25,13 @@ img {
 div h1 {
     font-size: 40px;
     color: #291B1A;
+    line-height: 140%;
 }
 div h2 {
     font-size: 24px;
     color: #291B1A;
+    font-weight: 150%;
+
 }
 div p, ul {
     font-size: 16px;
