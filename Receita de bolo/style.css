@@ -1,0 +1,20 @@
+main {
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    
+}
+div h1 {
+    font-size: 40px;
+    color: #291B1A;
+}
+div h2 {
+    font-size: 24px;
+    color: #291B1A;
+}
+div p, ul {
+    font-size: 16px;
+    color: #573A37;
+}
