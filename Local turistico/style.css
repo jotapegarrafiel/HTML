@@ -4,6 +4,10 @@
     font-family: "Open Sans", sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 .content {
     width: 1280px;
     box-sizing: border-box;
@@ -15,12 +19,14 @@
     font-weight: bold;
     color: #E1624F;
     text-transform: uppercase;
+    margin: 0;
 }
 
 h1 {
     font-size: 36px;
     font-weight: bold;
     color: #1B1B1B;
+    margin: 8px 0 40px;
 }
 
 img {
@@ -33,34 +39,63 @@ img {
     font-style: italic;
     font-size: 16px;
     text-align: center;
+    margin: 24px 0 44px;
+}
+
+hr {
+    margin: 0;
+    border: none;
+    border-top: 1px solid #D9D9D9;
+}
+
+#h2 {
+    padding: 64px 0;
 }
 
 h2 {
     color: #1B1B1B;
     font-size: 32px;
     font-weight: bold;
+    margin: 2px 0 8px;
 }
 
 .paragraph {
     color: #333333;
     font-size: 16px;
+    margin: 0;
 }
 
 h3 {
     color: #1B1B1B;
     font-size: 28px;
     font-weight: bold;
+    margin: 20px 0 4px;
+    padding-left: 8px;
+}
+
+ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+li::marker{
+    color: #333333;
 }
 
 .goodFor {
     color: #333333;
     font-size: 16px;
     font-weight: bold;
+    margin: 0;
 }
 
 #accent {
     font-weight: bold;
     font-size: 16px;
+}
+
+ul + img {
+    margin-top: 48px;
 }
 
 .history {
@@ -83,11 +118,20 @@ h3 {
     text-align: center;
 }
 
+section + hr {
+    margin: 40px 0;
+}
+
+footer {
+    margin: 65px 0 48px;
+}
+
 footer p {
     font-family: "Alice", serif;
     color: #333333;
     font-size: 16px;
     text-align: center;
+    margin: 0;
 }
 
 footer img {
